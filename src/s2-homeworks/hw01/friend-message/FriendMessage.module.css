@@ -1,5 +1,6 @@
 .friendMessage {
-
+    justify-self: start;
+    background: #e5e5ea;
 }
 
 .friendImageAndText {
