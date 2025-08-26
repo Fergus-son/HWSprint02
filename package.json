@@ -1,7 +1,8 @@
 {
   "name": "hws2",
-  "homepage": "https://github.com/Fergus-son/HWSprint02",
+  "homepage": "http://IgnatZakalinsky.github.io/hws2",
   "version": "0.1.0",
+  "private": true,
   "dependencies": {
     "@emotion/react": "11.10.4",
     "@emotion/styled": "11.10.4",
@@ -15,7 +16,7 @@
     "@types/react-dom": "18.0.6",
     "@types/uuid": "8.3.4",
     "axios": "0.27.2",
-    "gh-pages": "^6.3.0",
+    "gh-pages": "4.0.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-redux": "8.0.4",
@@ -27,7 +28,7 @@
     "web-vitals": "2.1.4"
   },
   "scripts": {
-    "dev": "react-scripts start",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
@@ -51,6 +52,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "packageManager": "pnpm@10.15.0+sha512.486ebc259d3e999a4e8691ce03b5cac4a71cbeca39372a9b762cb500cfdf0873e2cb16abe3d951b1ee2cf012503f027b98b6584e4df22524e0c7450d9ec7aa7b"
+  }
 }
