@@ -3,9 +3,16 @@
 }
 
 .hw {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 15px; 
+  margin: 50px;
 
 }
 
 .hwTitle {
-
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
 }
