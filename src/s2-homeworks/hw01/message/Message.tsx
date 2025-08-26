@@ -24,7 +24,7 @@ const Message = (props: MessagePropsType) => {
                         {/**/}
                     </pre>
                 </div>
-                <img
+                <img alt='avatar'
                     id={'hw1-avatar-' + props.message.id}
                     // создаёт студент
                     src={props.message.user.avatar}
