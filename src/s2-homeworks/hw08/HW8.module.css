@@ -1,23 +1,33 @@
 .item {
+    display: flex;
+    justify-content: space-between;
 }
 
-.item:last-of-type {
-}
+.item:last-of-type {}
 
 .users {
+    display: flex;
+    flex-direction: column;
 }
 
 .buttonsContainer {
+    display: flex;
+    justify-content: end;
+    gap: 10px;
 }
 
 .container {
+    width: 606px;
 }
 
 .thead {
+    background-color: #E5E5E5;
 }
 
 .nameCol {
+    width: 50%;
 }
 
 .ageCol {
+    text-align: end;
 }
